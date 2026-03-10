@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="he" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tollar Widget Local</title>
+
+
+</head>
+
+<body>
+  <h1>דף בדיקה</h1>
+  <p>אם הכל תקין, הווידג׳ט אמור להופיע.</p>
+  
+<script>
+  window.chatbot = window.chatbot || function() {
+    (window.chatbot.q = window.chatbot.q || []).push(arguments);
+  };
+</script>
+<script type="module" src="https://app.tollar.com/widget.js"></script>
+<script>
+  chatbot("init", {
+    hotelId: "belvedere-hotel",
+    hotelName: "Belvedere Hotel",
+    apiBase: "https://app.tollar.com"
+  });
+</script>
+
+
+
+
+
+  
+</body>
+</html>
